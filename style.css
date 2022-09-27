@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&family=Luxurious+Roman&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300&family=Poppins:wght@300&family=Righteous&family=Roboto+Condensed:wght@300&family=Sarala&display=swap');
 
+@media screen {
+    
+}
+
 :root {
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
@@ -47,7 +51,7 @@ html , body{
     border: #BB99DD solid;
     border-radius: 50%;
     
-    margin-top: 140px;
+    margin-top: 100px;
 
 }
 
@@ -56,8 +60,8 @@ html , body{
 
 }
 
-.instagram-user{
-    margin-top: 10px ;
+.insta-user{
+    margin-top: 20px ;
     
 }
 
@@ -68,8 +72,9 @@ html , body{
     
     display: flex;
     flex-direction:column ;
-    margin: 20px;
+    margin: 12px 0;
     text-align: center;
+    /* transition: ease .3s; */
     
 }
 
@@ -92,3 +97,19 @@ html , body{
 a { 
     color: currentColor;
  } 
+
+
+.links .social:hover{
+    background-color: var(--purple);
+    color: var(--body-bg-color);
+}
+
+/* .container-card .icons{
+    transform: scale(0.9) ;
+    transition: ease (0.3);
+}
+
+.container-card .icons:hover{
+
+    transform: scale(1);
+} */
